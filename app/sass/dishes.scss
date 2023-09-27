@@ -1,0 +1,471 @@
+.spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.spinner::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 4px solid #ccc;
+    border-top-color: #000;
+    animation: spinner-animation 0.8s infinite linear;
+}
+
+@keyframes spinner-animation {
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+
+.search-bar {
+    input {
+        outline: none;
+        width: 100%;
+        display: block;
+    }
+
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 50px 0 0 0;
+}
+
+
+
+.con__cardDishes {
+    padding: 90px 0 135px 0;
+    border-bottom: 1px solid #CBCBCB;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+.dishesCard__flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-dishes {
+    width: 19%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 70px;
+    border-radius: 24.65px;
+    border: 1.027px solid var(--colors-gray-gray-2, #F4F4F6);
+    background: var(--Pure-White, #FFF);
+    box-shadow: 4.88171px 58.58051px 29.29025px 0px rgba(229, 229, 229, 0.70);
+
+    .cardD__img img {
+        display: inline-block;
+        width: 143.375px;
+        height: 148.404px;
+    }
+
+    .cardD__title {
+
+        padding-left: 16px;
+
+        button {
+            color: #DAA31A;
+            font-feature-settings: 'clig' off, 'liga' off;
+            font-family: Poppins;
+            font-size: 8.142px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            padding: 1px 5px;
+            border-radius: 3.441px;
+            background: #F7EDD0;
+        }
+
+        h2 {
+            color: var(--BLACK, #323142);
+            font-feature-settings: 'clig' off, 'liga' off;
+            font-family: Poppins;
+            font-size: 16.434px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 26.705px;
+        }
+    }
+
+    .cardD__time-mark {
+        display: flex;
+        gap: 4px;
+        align-items: center;
+        padding-left: 16px;
+
+        span {
+            color: var(--Grey, #8E97A6);
+            font-feature-settings: 'clig' off, 'liga' off;
+            font-family: Manrope;
+            font-size: 12.325px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 16.434px;
+        }
+
+        p {
+            color: var(--Grey, #8E97A6);
+            font-feature-settings: 'clig' off, 'liga' off;
+            font-family: Manrope;
+            font-size: 12.325px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 16.434px;
+        }
+    }
+
+    .cardD__price-button {
+        padding-left: 16px;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        gap: 60px;
+
+        p {
+            color: var(--BLACK, #323142);
+            font-family: Manrope;
+            font-size: 18.488px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 28.759px;
+        }
+
+        button {
+            border-radius: 10px;
+            padding: 3px 10px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #333;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .card-dishes {
+        width: 24%;
+    }
+}
+
+@media (max-width: 992px) {
+    .card-dishes {
+        width: 32%;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-dishes {
+        width: 48%;
+    }
+}
+
+
+
+@media (max-width: 400px) {
+    .con__cardDishes {
+        padding: 50px 20px 57px 20px;
+    }
+
+    .card-dishes {
+        padding: 10px 0;
+
+        .cardD__img {
+            img {
+                display: inline-block;
+                width: 131.562px;
+                height: 136.177px;
+            }
+        }
+
+        .cardD__title {
+            button {
+                color: #DAA31A;
+                font-feature-settings: 'clig' off, 'liga' off;
+                font-family: Poppins;
+                font-size: 7.471px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+
+            h2 {
+                color: var(--BLACK, #323142);
+                font-feature-settings: 'clig' off, 'liga' off;
+                font-family: Poppins;
+                font-size: 15.08px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 24.504px;
+            }
+        }
+
+        .cardD__time-mark {
+            span {
+                color: var(--Grey, #8E97A6);
+                font-feature-settings: 'clig' off, 'liga' off;
+                font-family: Manrope;
+                font-size: 11.31px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 15.08px;
+            }
+
+            p {
+                color: var(--Grey, #8E97A6);
+                font-feature-settings: 'clig' off, 'liga' off;
+                font-family: Manrope;
+                font-size: 11.31px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 15.08px;
+            }
+        }
+
+        .cardD__price-button {
+            gap: 30px;
+
+            p {
+                color: var(--BLACK, #323142);
+                font-family: Manrope;
+                font-size: 18.488px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 28.759px;
+            }
+
+            button {
+                padding: 3px 10px;
+            }
+        }
+    }
+
+    .dishesCard__flex {
+        justify-content: center;
+    }
+
+    .card-dishes {
+        width: 48%;
+    }
+}
+
+.accordion__block {
+    padding: 100px 0;
+}
+
+.accordion__dishes {
+    text-align: center;
+
+    h2 {
+        display: inline-block;
+        max-width: 408px;
+        color: #323142;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+
+        span {
+            color: #6C5FBC;
+            font-family: Poppins;
+            font-size: 45px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 120%;
+        }
+    }
+}
+
+.accordion__item:nth-child(6) {
+    border-bottom: none;
+}
+
+.accordion__item {
+    padding: 28px 0 15px 0;
+    border-bottom: 1px solid #ADADAD;
+
+    .accordion__item-t {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h3 {
+            color: #323142;
+            font-family: Poppins;
+            font-size: 23.417px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 59.24px;
+        }
+
+        button {
+            background-color: #6C5FBC;
+            border-radius: 50%;
+            color: #fff;
+            width: 30.12px;
+            height: 30.12px;
+        }
+
+    }
+
+    p {
+        padding: 19px 0 43px 0;
+        max-width: 984px;
+        color: #686868;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        letter-spacing: 0.2px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .accordion__block {
+        padding: 70px 20px;
+    }
+
+    .accordion__dishes {
+        h2 {
+            margin-bottom: 81px;
+            color: #323142;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 120%;
+            margin-bottom: 80px;
+
+            span {
+                color: #6C5FBC;
+                font-family: Poppins;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 120%;
+            }
+        }
+    }
+
+    .accordion__item {
+        p {
+            max-width: 670.844px;
+            color: #686868;
+            font-family: Poppins;
+            font-size: 14.222px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%;
+            letter-spacing: 0.142px;
+        }
+
+        .accordion__item-t {
+            h3 {
+                color: #323142;
+                font-family: Poppins;
+                font-size: 16.652px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 42.126px;
+            }
+
+            button {
+                width: 21.419px;
+                height: 21.419px;
+                flex-shrink: 0;
+            }
+        }
+    }
+
+
+    .search-bar {
+        margin: 50px 20px 0 20px;
+
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .accordion__block {
+        padding: 103px 20px 95px 20px;
+    }
+
+
+    .accordion__dishes {
+        h2 {
+            max-width: 215px;
+            color: #323142;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 23.638px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 120%;
+            margin-bottom: 67px;
+
+            span {
+                color: #6C5FBC;
+                font-family: Poppins;
+                font-size: 23.638px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 120%;
+            }
+        }
+    }
+
+    .accordion__item {
+        p {
+            padding: 13px 0 41px 0;
+            max-width: 250px;
+            color: #979797;
+            text-align: justify;
+            font-family: Poppins;
+            font-size: 11px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%;
+            letter-spacing: 0.11px;
+        }
+
+        padding: 15px 0 7px 0;
+
+        .accordion__item-t {
+            h3 {
+                color: #323142;
+                font-family: Poppins;
+                font-size: 12.301px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 31.119px;
+            }
+        }
+    }
+
+}
+
+
+.registration-message {
+    color: #323142;
+    font-family: Poppins;
+    font-size: 28.436px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+    letter-spacing: -1.137px;
+    margin-bottom: 30px;
+}

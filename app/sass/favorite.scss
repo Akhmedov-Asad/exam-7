@@ -1,0 +1,179 @@
+.Favorites {
+    padding: 132px 0;
+}
+
+.favorite__block-f {
+    display: none;
+}
+
+.favorite__chiken-img {
+    border-radius: 30px;
+    border: 1.593px solid var(--colors-gray-gray-2, #F4F4F6);
+    background: var(--Pure-White, #FFF);
+    box-shadow: 7.57186px 90.86229px 45.43114px 0px rgba(229, 229, 229, 0.70);
+
+    img {
+        width: 100%;
+        border-radius: 30px 30px 0px 0px;
+        object-fit: cover;
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 43px 31px 46px;
+
+        .favorite__item1 {
+            h4 {
+                color: var(--BLACK, #323142);
+                font-feature-settings: 'clig' off, 'liga' off;
+                font-family: Poppins;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 53.364px;
+            }
+        }
+
+        .favorite__item2 {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+
+            p {
+                color: var(--Grey, #8E97A6);
+                font-feature-settings: 'clig' off, 'liga' off;
+                font-family: Manrope;
+                font-size: 26.233px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 34.977px;
+            }
+
+            img {
+                width: 34.977px;
+                height: 34.977px;
+                cursor: pointer;
+            }
+
+            span {
+                color: var(--Grey, #8E97A6);
+                font-feature-settings: 'clig' off, 'liga' off;
+                font-family: Manrope;
+                font-size: 26.233px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 34.977px;
+            }
+        }
+
+        .favorite__item3 {
+            cursor: pointer;
+
+            img {
+                width: 31.887px;
+                height: 31.887px;
+            }
+        }
+    }
+}
+.favorite__items1{
+    display: none;
+}
+@media screen and (max-width:800px) {
+
+    .chiken{
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .favorite__items1{
+        display: block;
+    }
+    .Favorites {
+        padding: 29px 20px 0 20px;
+    }
+
+    .favorite__chiken-img {
+        ul {
+            padding: 11px 21px 14px 27px;
+            display: grid;
+
+            .favorite__item1 {
+                h4 {
+                    color: var(--BLACK, #323142);
+                    font-feature-settings: 'clig' off, 'liga' off;
+                    font-family: Poppins;
+                    font-size: 20.512px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 33.333px;
+                }
+            }
+
+
+            .favorite__item2 {
+                display: none;
+            }
+
+            .favorite__item3 {
+                display: none;
+            }
+
+            .favorite__block-f {
+                display: block;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .favorite__items2 {
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+
+                    p {
+                        color: var(--Grey, #8E97A6);
+                        font-feature-settings: 'clig' off, 'liga' off;
+                        font-family: Manrope;
+                        font-size: 15.384px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 20.512px;
+                    }
+
+                    img {
+                        width: 20.512px;
+                        height: 20.512px;
+                        flex-shrink: 0;
+                    }
+
+                    span {
+                        color: var(--Grey, #8E97A6);
+                        font-feature-settings: 'clig' off, 'liga' off;
+                        font-family: Manrope;
+                        font-size: 15.384px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 20.512px;
+                    }
+                }
+            }
+        }
+    }
+
+    .favorite__items1 {
+        button {
+            padding: 2px 6px;
+            border-radius: 4.295px;
+            background: #F7EDD0;
+            color: #DAA31A;
+            font-feature-settings: 'clig' off, 'liga' off;
+            font-family: Poppins;
+            font-size: 10.163px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+}

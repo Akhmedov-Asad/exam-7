@@ -1,0 +1,129 @@
+{
+    "status": 200,
+    "data": {
+        "data": [
+            {
+                "id": 1,
+                "createdAt": "2023-09-19T13:19:05.707Z",
+                "updatedAt": "2023-09-19T13:19:05.707Z",
+                "deletedAt": null,
+                "name": "chicken",
+                "image": "1695129545423Screenshot2023-09-19at11.26.26.png",
+                "type": "TRENDING",
+                "time": "10",
+                "mark": "5.00",
+                "price": "12.55"
+            },
+            {
+                "id": 2,
+                "createdAt": "2023-09-20T05:25:32.480Z",
+                "updatedAt": "2023-09-20T05:25:32.480Z",
+                "deletedAt": null,
+                "name": "Swe Dish",
+                "image": "1695187532226food-1.png",
+                "type": "TRENDING",
+                "time": "34",
+                "mark": "4.90",
+                "price": "19.99"
+            },
+            {
+                "id": 3,
+                "createdAt": "2023-09-20T05:38:44.383Z",
+                "updatedAt": "2023-09-20T05:38:44.383Z",
+                "deletedAt": null,
+                "name": "Swe Dish",
+                "image": "1695188324103food-2.png",
+                "type": "SUPREME",
+                "time": "34",
+                "mark": "4.90",
+                "price": "19.99"
+            },
+            {
+                "id": 4,
+                "createdAt": "2023-09-20T05:56:33.446Z",
+                "updatedAt": "2023-09-20T05:56:33.446Z",
+                "deletedAt": null,
+                "name": "Chicken Hell",
+                "image": "1695189393254food-3.png",
+                "type": "HEALTHY",
+                "time": "24",
+                "mark": "4.80",
+                "price": "12.99"
+            },
+            {
+                "id": 5,
+                "createdAt": "2023-09-20T05:58:21.889Z",
+                "updatedAt": "2023-09-20T05:58:21.889Z",
+                "deletedAt": null,
+                "name": "Swe Dish",
+                "image": "1695189501529food-1.png",
+                "type": "TRENDING",
+                "time": "34",
+                "mark": "4.90",
+                "price": "19.99"
+            },
+            {
+                "id": 6,
+                "createdAt": "2023-09-20T05:59:52.920Z",
+                "updatedAt": "2023-09-20T05:59:52.920Z",
+                "deletedAt": null,
+                "name": "Chicken Hell",
+                "image": "1695189592642food-3.png",
+                "type": "HEALTHY",
+                "time": "24",
+                "mark": "4.80",
+                "price": "12.99"
+            },
+            {
+                "id": 7,
+                "createdAt": "2023-09-20T06:01:53.922Z",
+                "updatedAt": "2023-09-20T06:01:53.922Z",
+                "deletedAt": null,
+                "name": "Swe Dish",
+                "image": "1695189713640food-1.png",
+                "type": "TRENDING",
+                "time": "34",
+                "mark": "4.90",
+                "price": "19.99"
+            },
+            {
+                "id": 8,
+                "createdAt": "2023-09-20T06:02:23.517Z",
+                "updatedAt": "2023-09-20T06:02:23.517Z",
+                "deletedAt": null,
+                "name": "Swe Dish",
+                "image": "1695189743077food-2.png",
+                "type": "SUPREME",
+                "time": "34",
+                "mark": "4.90",
+                "price": "19.99"
+            },
+            {
+                "id": 9,
+                "createdAt": "2023-09-20T06:03:25.366Z",
+                "updatedAt": "2023-09-20T06:03:25.366Z",
+                "deletedAt": null,
+                "name": "Chicken Hell",
+                "image": "1695189805149food-3.png",
+                "type": "HEALTHY",
+                "time": "24",
+                "mark": "4.80",
+                "price": "12.99"
+            },
+            {
+                "id": 10,
+                "createdAt": "2023-09-20T06:04:20.782Z",
+                "updatedAt": "2023-09-20T06:04:20.782Z",
+                "deletedAt": null,
+                "name": "Swe Dish",
+                "image": "1695189860389food-1.png",
+                "type": "TRENDING",
+                "time": "34",
+                "mark": "4.90",
+                "price": "19.99"
+            }
+        ],
+        "count": 15
+    },
+    "message": "Successfully get"
+}

@@ -1,0 +1,383 @@
+.customerSat__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('../../public/assets/cSay__bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 30px;
+    background: var(--Primary-Color, #6C5FBC);
+    padding: 37px 50px 72px 66px;
+    margin: 144px 0 100px 0;
+
+    .CS__bottom-left {
+        h3 {
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 70px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+            margin-bottom: 9px;
+        }
+
+        form {
+            display: flex;
+            align-items: center;
+            gap: 61px;
+            padding: 8px 25px;
+            max-width: 430px;
+            border-radius: 15px;
+            background: #FFF;
+            box-shadow: 0px 7.25333px 45.33334px 0px rgba(0, 0, 0, 0.10);
+
+            input {
+                color: #878787;
+                font-family: Poppins;
+                font-size: 16.268px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 0.488px;
+                text-transform: capitalize;
+                border-radius: 15px;
+            }
+
+            button {
+                padding: 15px 25px;
+                color: #F7F8FA;
+                font-family: Poppins;
+                font-size: 14.752px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                letter-spacing: 0.443px;
+                text-transform: uppercase;
+                border-radius: 11.253px;
+                background: #6C5FBC;
+                cursor: pointer;
+
+                &:active {
+                    opacity: 0.5;
+                }
+            }
+        }
+    }
+
+
+}
+
+.cartDish__card {
+    margin: 132px 0 0 280px;
+
+    .cart__item {
+        max-width: 681px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 11.965px;
+        background: #FFF;
+        box-shadow: 2px 1px 6px 0px silver;
+        padding-right: 55px;
+
+        .cart__item-flex {
+            display: flex;
+            align-items: center;
+            gap: 13px;
+
+            .cart__item-img {
+                img {
+                    width: 98.713px;
+                    height: 102.308px;
+                }
+            }
+
+            .cart__item-title {
+                h3 {
+                    color: var(--Black-Color, #323142);
+                    font-feature-settings: 'clig' off, 'liga' off;
+                    font-family: Poppins;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 140%;
+                    margin-bottom: 3px;
+                }
+
+                p {
+                    color: var(--Black-Color, #323142);
+                    font-feature-settings: 'clig' off, 'liga' off;
+                    font-family: Poppins;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 140%;
+                }
+            }
+        }
+
+        .cart__item-btn {
+
+            text-align: center;
+
+            span {
+                color: var(--Black-Color, #323142);
+                font-feature-settings: 'clig' off, 'liga' off;
+                font-family: Poppins;
+                font-size: 15.954px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 140%;
+            }
+
+            div {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                margin-bottom: 8px;
+
+                .cart__item-increment {
+                    display: inline-block;
+                    border: 1px solid black;
+                    padding: 1px 8px;
+                    border-radius: 10px;
+                }
+
+                .cart__item-decrement {
+                    display: inline-block;
+                    color: white;
+                    background-color: black;
+                    padding: 1px 8px;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .customerSat__bottom {
+
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-image: url('../../public/assets/cSay__bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        border-radius: 30px;
+        background: var(--Primary-Color, #6C5FBC);
+        padding: 35px 0 0 0;
+        margin: 109px 20px 60px 20px;
+
+
+        .CS__bottom-left {
+            h3 {
+                color: #FFF;
+                font-family: Poppins;
+                font-size: 41.447px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: normal;
+                margin-bottom: 15px;
+            }
+
+            form {
+                margin-bottom: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 7px 10px;
+                width: 260px;
+                border-radius: 15px;
+                background: #FFF;
+                box-shadow: 0px 7.25333px 45.33334px 0px rgba(0, 0, 0, 0.10);
+
+                input {
+                    width: 70px;
+                    padding: 0;
+                    color: #878787;
+                    font-family: Poppins;
+                    font-size: 10.58px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    letter-spacing: 0.317px;
+                    text-transform: capitalize;
+                }
+
+                button {
+
+                    padding: 10px 16px;
+                    color: #F7F8FA;
+                    font-family: Poppins;
+                    font-size: 9.594px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: 0.288px;
+                    text-transform: uppercase;
+
+                    &:active {
+                        opacity: 0.5;
+                    }
+                }
+            }
+        }
+
+
+
+    }
+}
+
+
+.ReviewPayment {
+    max-width: 681px;
+    margin-top: 210px;
+
+    .ReviewPayment__list {
+        .ReviewPayment__item1 {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-bottom: 13px;
+            border-bottom: 1px dashed #ACADB9;
+
+            h4 {
+                color: var(--Black-Color, #323142);
+                font-family: Poppins;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 117.5%;
+                letter-spacing: -0.4px;
+                opacity: 0.7;
+            }
+
+            span {
+                color: var(--Black-Color, #323142);
+                font-family: Poppins;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 117.5%;
+                /* 23.5px */
+                letter-spacing: -0.4px;
+                opacity: 0.7;
+            }
+        }
+
+        .ReviewPayment__item2 {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 28px 0 62px 0;
+
+            h3 {
+                color: var(--Black-Color, #323142);
+                font-family: Poppins;
+                font-size: 25px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 117.5%;
+                letter-spacing: -0.5px;
+            }
+
+            span {
+                color: var(--Black-Color, #323142);
+                font-family: Poppins;
+                font-size: 25px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 117.5%;
+                letter-spacing: -0.5px;
+            }
+        }
+    }
+
+    button {
+        width: 100%;
+        padding: 24px 0;
+        color: var(--Cream---Background, #FFF3EB);
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.2px;
+        border-radius: 15.043px;
+        background: var(--Purple, #6C5FBC);
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .cartDish__card {
+        margin: 132px 0 0 180px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .cartDish__card {
+        margin: 132px 0 0 40px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    
+    
+    .cartDish__card {
+        margin: 64px 20px 149px 20px;
+        .cart__item{
+          padding-right: 15px;
+          padding: 13px 5px;
+
+          .cart__item-btn{
+            div{
+                margin-bottom: 5px;
+            }
+        }
+
+        .cart__item-flex {
+            gap: 8px;
+
+            .cart__item-title {
+                h3 {
+                    color: var(--Black-Color, #323142);
+                    font-feature-settings: 'clig' off, 'liga' off;
+                    font-family: Poppins;
+                    font-size: 13.204px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 140%;
+                }
+
+                span {
+                    color: var(--Black-Color, #323142);
+                    font-feature-settings: 'clig' off, 'liga' off;
+                    font-family: Poppins;
+                    font-size: 10.803px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 140%;
+                }
+            }
+
+            .cart__item-img img {
+                padding: 3px 0 3px 6px;
+                width: 59.244px;
+                height: 61.401px;
+                flex-shrink: 0;
+            }
+
+            
+        }
+
+        }
+        
+        
+       
+
+    }
+}

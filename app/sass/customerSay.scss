@@ -1,0 +1,478 @@
+.CustomerSay__container {
+    padding: 116px 0 216px 0;
+    margin: 0;
+    margin: 0 auto;
+    background: #F9F9F9;
+
+    .customerSay__top {
+        margin-bottom: 217px;
+
+        h3 {
+            text-align: center;
+            color: #323142;
+            font-feature-settings: 'clig' off, 'liga' off;
+            font-family: Poppins;
+            font-size: 45px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 25.558px;
+            margin-bottom: 80px;
+
+            span {
+                color: #6C5FBC;
+                font-feature-settings: 'clig' off, 'liga' off;
+                font-family: Poppins;
+                font-size: 45px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 25.558px;
+            }
+        }
+
+        .customerSay__list {
+            display: flex;
+            align-items: center;
+            gap: 46px;
+            overflow-x: auto;
+            padding-bottom: 20px;
+
+            .customerSay__item {
+                cursor: pointer;
+                flex: 0 0 auto;
+                animation: cardAnimation 0.3s ease-in-out;
+
+                .CS__list-top {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-bottom: 37px;
+                }
+
+                max-width: 528px;
+                padding: 44px 43px 38px 43px;
+                fill: #FFF;
+                border-radius: 20.116px;
+                box-shadow: 1px 5px 10px 2px silver;
+
+                .CS__list-top {
+                    .CS__image {
+                        display: flex;
+                        align-items: center;
+                        gap: 20px;
+
+                        img {
+                            border-radius: 50%;
+                        }
+                    }
+
+                    .CS__Title {
+                        h5 {
+                            color: #030314;
+                            font-family: Poppins;
+                            font-size: 20.893px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 31.34px;
+                        }
+
+                        p {
+                            color: #5E5D5D;
+                            font-size: 13.715px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 20.117px;
+                        }
+                    }
+                }
+
+                .CS__subtitle-center {
+                    margin-bottom: 39px;
+
+                    p {
+                        color: #636363;
+                        text-align: justify;
+                        font-family: Poppins;
+                        font-size: 18px;
+                        font-style: italic;
+                        font-weight: 400;
+                        line-height: 26.117px;
+                    }
+                }
+            }
+
+            @keyframes cardAnimation {
+                0% {
+                    transform: scale(1);
+                }
+
+                50% {
+                    transform: scale(0.8);
+                }
+
+                100% {
+                    transform: scale(1);
+                }
+            }
+        }
+    }
+
+    .customerSat__bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-image: url('../../public/assets/cSay__bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        border-radius: 30px;
+        background: var(--Primary-Color, #6C5FBC);
+        padding: 37px 50px 72px 66px;
+
+        .CS__bottom-left {
+            h3 {
+                color: #FFF;
+                font-family: Poppins;
+                font-size: 70px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: normal;
+                margin-bottom: 9px;
+            }
+
+            form {
+                display: flex;
+                align-items: center;
+                gap: 61px;
+                padding: 8px 25px;
+                max-width: 430px;
+                border-radius: 15px;
+                background: #FFF;
+                box-shadow: 0px 7.25333px 45.33334px 0px rgba(0, 0, 0, 0.10);
+
+                input {
+                    color: #878787;
+                    font-family: Poppins;
+                    font-size: 16.268px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    letter-spacing: 0.488px;
+                    text-transform: capitalize;
+                    border-radius: 15px;
+                }
+
+                button {
+                    padding: 15px 25px;
+                    color: #F7F8FA;
+                    font-family: Poppins;
+                    font-size: 14.752px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: 0.443px;
+                    text-transform: uppercase;
+                    border-radius: 11.253px;
+                    background: #6C5FBC;
+                    cursor: pointer;
+
+                    &:active {
+                        opacity: 0.5;
+                    }
+                }
+            }
+        }
+
+
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .CustomerSay__container {
+        padding: 82px 0 153px 0;
+        background: #F9F9F9;
+
+        .customerSay__top {
+            margin-bottom: 157px;
+
+            h3 {
+                color: #323142;
+                font-feature-settings: 'clig' off, 'liga' off;
+                font-family: Poppins;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 18.175px;
+                margin-bottom: 56px;
+
+                span {
+                    color: #6C5FBC;
+                    font-feature-settings: 'clig' off, 'liga' off;
+                    font-family: Poppins;
+                    font-size: 32px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 18.175px;
+                }
+            }
+
+            .customerSay__list {
+                .customerSay__item {
+                    max-width: 375.467px;
+                    padding: 31px 30px 27px 30px;
+                    fill: #FFF;
+                    border-radius: 20.116px;
+                    box-shadow: 1px 5px 10px 2px silver;
+
+                    .CS__list-top {
+                        margin-bottom: 24px;
+
+                        .CS__Qoutes-img {
+                            img {
+                                width: 41.734px;
+                                height: 31.468px;
+                            }
+                        }
+
+                        .CS__image {
+                            gap: 10px;
+
+                            img {
+                                width: 50.727px;
+                                height: 50.151px;
+                            }
+
+                            .CS__Title {
+                                h5 {
+                                    color: #030314;
+                                    font-family: Poppins;
+                                    font-size: 14.858px;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    line-height: 22.286px;
+                                }
+
+                                p {
+                                    color: #5E5D5D;
+                                    font-size: 10.886px;
+                                    font-style: normal;
+                                    font-weight: 300;
+                                    line-height: 18.572px;
+                                }
+                            }
+                        }
+                    }
+
+                    .CS__subtitle-center {
+                        margin-bottom: 24px;
+
+                        p {
+                            max-width: 314.311px;
+                            color: #636363;
+                            text-align: justify;
+                            font-family: Poppins;
+                            font-size: 12.8px;
+                            font-style: italic;
+                            font-weight: 400;
+                            line-height: 18.572px;
+
+                        }
+                    }
+
+                    .CS__stars-img {
+                        img {
+                            width: 98.135px;
+                            height: 16.356px;
+                            flex-shrink: 0;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+
+
+
+    .CustomerSay__container {
+        padding: 57px 20px;
+        background: #F9F9F9;
+
+        .customerSay__top {
+            margin-bottom: 57px;
+
+            h3 {
+                color: #323142;
+                text-align: center;
+                font-feature-settings: 'clig' off, 'liga' off;
+                font-family: Poppins;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 120%;
+
+                span {
+                    color: #6C5FBC;
+                    font-feature-settings: 'clig' off, 'liga' off;
+                    font-family: Poppins;
+                    font-size: 30px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 120%;
+                }
+            }
+
+            .customerSay__list {
+                .customerSay__item {
+                    max-width: 314.592px;
+                    padding: 26px 25px 22px 25px;
+                    fill: #FFF;
+                    border-radius: 20.116px;
+                    box-shadow: 1px 5px 10px 2px silver;
+
+                    .CS__list-top {
+                        margin-bottom: 18px;
+
+                        .CS__Qoutes-img {
+                            img {
+                                width: 34.969px;
+                                height: 26.366px;
+                            }
+                        }
+
+                        .CS__image {
+                            gap: 10px;
+
+                            img {
+                                width: 38.727px;
+                                height: 38.151px;
+                            }
+
+                            .CS__Title {
+                                h5 {
+                                    color: #030314;
+                                    font-family: Poppins;
+                                    font-size: 12.449px;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    line-height: 18.673px;
+                                }
+
+                                p {
+                                    color: #5E5D5D;
+                                    font-size: 9.959px;
+                                    font-style: normal;
+                                    font-weight: 300;
+                                    line-height: 15.561px;
+                                }
+                            }
+                        }
+                    }
+
+                    .CS__subtitle-center {
+                        margin-bottom: 22px;
+
+                        p {
+                            max-width: 263.352px;
+                            color: #636363;
+                            text-align: justify;
+                            font-family: Poppins;
+                            font-size: 10.725px;
+                            font-style: italic;
+                            font-weight: 400;
+                            line-height: 15.561px;
+
+                        }
+                    }
+
+                    .CS__stars-img {
+                        img {
+                            width: 82.224px;
+                            height: 13.704px;
+                            flex-shrink: 0;
+                        }
+                    }
+
+                }
+            }
+        }
+
+        .customerSat__bottom {
+
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background-image: url('../../public/assets/cSay__bg.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            border-radius: 30px;
+            background: var(--Primary-Color, #6C5FBC);
+            padding: 35px 0 0 0;
+
+            .CS__bottom-left {
+                h3 {
+                    color: #FFF;
+                    font-family: Poppins;
+                    font-size: 41.447px;
+                    font-style: normal;
+                    font-weight: 800;
+                    line-height: normal;
+                    margin-bottom: 15px;
+                }
+
+                form {
+                    margin-bottom: 30px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 7px 10px;
+                    width: 260px;
+                    border-radius: 15px;
+                    background: #FFF;
+                    box-shadow: 0px 7.25333px 45.33334px 0px rgba(0, 0, 0, 0.10);
+
+                    input {
+                        width: 70px;
+                        padding: 0;
+                        color: #878787;
+                        font-family: Poppins;
+                        font-size: 10.58px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        letter-spacing: 0.317px;
+                        text-transform: capitalize;
+                    }
+
+                    button {
+
+                        padding: 10px 16px;
+                        color: #F7F8FA;
+                        font-family: Poppins;
+                        font-size: 9.594px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        letter-spacing: 0.288px;
+                        text-transform: uppercase;
+
+                        &:active {
+                            opacity: 0.5;
+                        }
+                    }
+                }
+            }
+
+
+
+        }
+    }
+
+
+
+}

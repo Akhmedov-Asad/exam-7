@@ -1,0 +1,216 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    padding: 38px 20px 0 20px;
+}
+
+.header__con {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #CBCBCB;
+    padding-bottom: 17px;
+}
+
+.header__left {
+    img {
+        cursor: pointer;
+    }
+
+    display: flex;
+    align-items: center;
+    gap: 103px;
+
+    ul {
+        display: flex;
+        align-items: center;
+        gap: 53px;
+
+        li {
+            a {
+                font-family: inter;
+                color: #6C5FBC;
+                font-size: 17.829px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 26.743px;
+                text-transform: capitalize;
+
+                &:hover {
+                    opacity: 0.6;
+                }
+            }
+        }
+    }
+}
+
+
+
+.burger__menu {
+    display: none;
+}
+
+
+.header__right {
+    ul {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+
+        .header__login {
+            color: #606060;
+            font-family: Inter;
+            font-size: 17.829px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 26.743px;
+
+            &:active {
+                opacity: 0.5;
+            }
+
+        }
+    }
+}
+
+.header__register {
+    a {
+        button {
+            padding: 16px 27px;
+            color: #F9F9F9;
+            font-family: Inter;
+            font-size: 17.829px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 26.743px;
+            text-transform: capitalize;
+            border-radius: 17.829px;
+            background: #6C5FBC;
+
+            &:active {
+                opacity: 0.5;
+                transition: .5s all;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .header {
+        padding: 44px 20px 0 20px;
+    }
+
+    .header__register {
+        a {
+            button {
+                padding: 12px 24px;
+                color: #F9F9F9;
+                font-family: Inter;
+                font-size: 17.829px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 26.743px;
+                text-transform: capitalize;
+                border-radius: 17.829px;
+                background: #6C5FBC;
+
+                &:active {
+                    opacity: 0.5;
+                    transition: .5s all;
+                }
+            }
+        }
+    }
+
+    .header__left {
+        gap: 33px;
+    }
+
+    .header__right {
+
+        ul {
+            gap: 20px;
+
+            .header__login {
+                color: #606060;
+                font-family: Inter;
+                font-size: 16.829px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 22.743px;
+
+                &:active {
+                    opacity: 0.5;
+                }
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .burger__menu {
+        transition: 1s all;
+        display: block;
+        cursor: pointer;
+    }
+
+    .header {
+        padding: 33px 20px 0 20px;
+    }
+
+    .header__left {
+        ul {
+            display: none;
+        }
+    }
+
+}
+
+
+
+
+.header__menu {
+    display: inline-block;
+    margin: 0 auto;
+    display: block;
+    padding: 30px 0;
+
+
+    li:nth-child(4) {
+        a {
+            padding: 10px 24px;
+            color: #F9F9F9;
+            font-family: Inter;
+            font-size: 17.829px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 26.743px;
+            text-transform: capitalize;
+            border-radius: 17.829px;
+            background: #6C5FBC;
+        }
+    }
+
+    li {
+        text-align: center;
+        margin-bottom: 25px;
+
+        a {
+            display: inline-block;
+            color: #6C5FBC;
+            font-family: Inter;
+            font-size: 12.678px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 19.017px;
+            text-transform: capitalize;
+            &:active{
+                opacity: 0.5;
+            }
+        }
+    }
+}
